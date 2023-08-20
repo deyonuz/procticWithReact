@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+}
+h1 , p{
+   color: black;
+}
+img {
+  width: 70px;
+}
+.card-all {
+  width: 600px;
+  height: 500px;
+  overflow-y: hidden;
+  overflow-y: scroll;
+  
+}
+.container-big {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+ ;
+}
+.card-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card_date >p {
+  font-size: 20px;
+}
